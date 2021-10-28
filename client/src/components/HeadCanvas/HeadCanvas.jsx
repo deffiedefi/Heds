@@ -66,7 +66,7 @@ const Model = () => {
 
    return (
       <mesh ref={ref}>
-         <primitive object={gltf.scene} scale={0.65} />
+         <primitive object={gltf.scene} scale={0.67} />
       </mesh>
    );
 };

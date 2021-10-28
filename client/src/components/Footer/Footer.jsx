@@ -11,7 +11,7 @@ import { Container, Navbar, Nav, Row, Col } from 'react-bootstrap';
 const Footer = () => {
    return (
       <Fragment>
-         footer
+         {/* footer */}
       </Fragment>
    );
 };

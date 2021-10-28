@@ -1,6 +1,57 @@
 .home-container {
+    /* VARS */
+    .text-gray {
+        color: #666666;
+    }
     .banner {
         height: 80%;
         width: 100%
+    }
+    .head {
+        height: auto;
+        width: 35vw;
+    }
+    .road-map {
+        margin-left: 75px;;
+    }
+    .stairs {
+        width: 14vw;
+        height: auto;
+    }
+    .vinyl {
+        width: 14vw;
+        height: auto;
+    }
+    .line {
+        position: absolute;
+        right: 50%;
+        height: 80vw;
+
+    }
+    .date {
+        width: 4vw;
+        height: auto;
+        border-bottom: solid 1px #666666;
+    }
+    .book {
+        width: 20vw;
+        height: auto;
+    }
+    .shirt {
+        width: 20vw;
+        height: auto;
+    }
+    .brdr-r {
+        border-right: solid 2px #666666;
+    }
+    .brdr-l {
+        border-left: solid 2px #666666;
+    }
+    .bold {
+        font-weight: bolder !important;
+    }
+    .copyright {
+        display: flex;
+        align-self: flex-end !important;
     }
 }
