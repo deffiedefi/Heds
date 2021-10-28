@@ -1,0 +1,133 @@
+* {
+   box-sizing: border-box;
+   font-family: monospace !important;
+}
+
+html,
+body {
+   background-image: linear-gradient(180deg, black, #545454);
+}
+
+body {
+   opacity: 1;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.btn-success {
+   background-color: rgb(145, 144, 144) !important;
+   border: none !important;
+   border-radius: 2px !important;
+   color: $white !important;
+   box-shadow: 1px 4px 10px rgba(137, 166, 162, 0.514);
+   &:hover {
+      background-color: rgb(159, 159, 159) !important;
+      border: none !important;
+      border-radius: 2px !important;
+   }
+   &:focus {
+      box-shadow: none !important;
+   }
+}
+
+.font-helv {
+   font-family: Arial, Helvetica, sans-serif !important;
+   font-weight: 500 !important;
+}
+
+.pointer:hover {
+   cursor: pointer;
+}
+
+// MOBILE FRIENDLY PADDING **
+.mf-padding {
+   width: auto;
+   padding: 10px 20px;
+}
+
+.font-thin {
+   font-weight: 100 !important;
+   font-size: 0.95em;
+}
+
+.text-wheat {
+   color: rgb(236, 216, 179) !important;
+}
+
+.text-white {
+   color: rgb(230, 225, 218) !important;
+}
+
+.font-small {
+   font-size: 0.75em;
+}
+.container {
+   flex: 1 0 auto;
+}
+
+footer {
+   flex-shrink: 0;
+}
+
+.text-primary {
+   color: $primary !important;
+}
+
+.text-secondary {
+   color: $secondary !important;
+}
+
+.text-tertiary {
+   color: $tertiary !important;
+}
+
+.text-black {
+   color: $black !important;
+}
+
+.text-info {
+   color: $info !important;
+}
+
+.text-green {
+   color: $green !important;
+}
+
+.text-red {
+   color: $red !important;
+}
+
+.btn-circle {
+   border-radius: 50%;
+}
+
+.text-majesti {
+   font-family: $primary-font;
+}
+
+.text-serif {
+   font-family: sans-serif;
+}
+
+.btn-fix {
+   min-width: 100px;
+   border-radius: 0px;
+}
+// Bootstrap Overrides
+.btn-outline-primary {
+   // color: $primary!important;
+   // border-color: $primary!important;
+   &:hover {
+      color: #fff !important;
+      background-color: $primary !important;
+   }
+}
+
+.list-group-horizontal {
+   border: none !important;
+   border-radius: 0 !important;
+   .list-group-item {
+      background-color: transparent !important;
+      padding: 5px !important;
+   }
+}
