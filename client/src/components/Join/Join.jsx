@@ -17,7 +17,7 @@ const Join = () => {
                   We are still at the beginning of <br />
                   a cultural revolution that will <br />
                   disrupt legacy media in ways that <br />
-                  we never imagined. <br />
+                  we never imagined.<br />
                </div>
                <span className="font-helv bold">
                   JOIN DISCORD 

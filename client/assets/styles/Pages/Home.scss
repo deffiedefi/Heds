@@ -5,11 +5,11 @@
     }
     .banner {
         height: 80%;
-        width: 100%
+        width: 100vw;
     }
     .head {
         height: auto;
-        width: 35vw;
+        width: 45vw;
     }
     .road-map {
         margin-left: 75px;;
@@ -26,6 +26,7 @@
         position: absolute;
         right: 50%;
         height: 80vw;
+        border-left: 3px #666666;
 
     }
     .date {

@@ -35,19 +35,21 @@ const Home = () => {
                      <h1 className='font-helv'>ORIGIN OF THE HEDS</h1>
                      <br />
                      <div className='h4'>
-                        HEDS are the first stage in what is to become a fully decentralized audio-visual collective.
+                        HEDS are the first stage in what is to become hedsDAO, a fully decentralized audio-visual collective.
                         Each HED grants access to a private discord in which content creators can submit their work,
-                        trade project files, and collaborate freely. Every month, HEDS will release and auction a
-                        mixtape created and curated by the community discord, as an NFT, including the full project
+                        trade project files, and collaborate freely. On the third Friday of every month, HEDS will release and auction a
+                        mixtape created and curated by the community, as an NFT, including the full project
                         files from the works contained.
                      </div>
                      <br />
                      <div className='h4'>
-                        Earnings from the Mixtape NFTs will then be distributed between the creators of the last tape,
-                        saved as funds for bids on the following tape, and the dev team. New applicants will appreciate
-                        pressed works with talented greats, and already established web3 artists can support their own
-                        art from auction sales. Eventually this will allow the team to write contracts which fund live
-                        show tours, art exhibits across the globe, and IRL community education programs.
+                        Earnings from the mixtape NFTs will then be distributed as such: 50% between the
+                        creators of the last tape, 25% saved as funds for a bid on the following tape, and
+                        25% to hedsDAO development. New applicants will appreciate pressed works with talented greats,
+                        and already established web3 artists can support their own art from auction sales.
+                        Eventually, through organic growth, this will allow the team to write contracts
+                        which fund live show tours, art exhibits across the globe,
+                        and IRL community education programs.
                      </div>
                   </Col>
                   {!isMobile && (
@@ -74,20 +76,20 @@ const Home = () => {
                   <img src={line} alt='line' className='line' />
                </div>
                <Row className='pt-3 pb-3 h5'>
-                  <Col md={6} sm={4} xs={6} className='text-right pr-5 text-gray h6'>
+                  <Col md={6} sm={4} xs={6} className='text-right pr-5 text-gray h4'>
                      WHITELISTING PERIOD
                   </Col>
                </Row>
                <Row className=''>
-                  <Col md={6} sm={6} xs={6} className='text-right my-auto pr-5 text-white h6'>
-                     1/1 NFTs <br /> Serve as pass to <br /> establish genesis <br /> community
+                  <Col md={6} sm={6} xs={6} className='text-right my-auto pr-5 text-white h5'>
+                     1/1 NFTs <br /> Serve as a pass to <br /> establish genesis <br /> community
                   </Col>
                   <Col md={6} sm={6} xs={6} className='text-left my-auto pl-5'>
                      <Image src={stairs} className='stairs'></Image>
                   </Col>
                </Row>
                <Row className='pt-3 pb-1 h5'>
-                  <Col md={6} sm={6} xs={6} className='pr-5  mt-5 text-gray h6'>
+                  <Col md={6} sm={6} xs={6} className='pr-5  mt-5 text-gray h5'>
                      <div className="text-right pr-5">
                      HEDS TREASURY ESTABLISHED <br /> BY FOUNDERS
                      </div>
@@ -97,9 +99,9 @@ const Home = () => {
                   <Col md={6} sm={6} xs={6} className='text-right my-auto pr-5 text-white h5'>
                      <Image src={vinyl} className='vinyl pr-3'></Image>
                   </Col>
-                  <Col md={6} sm={6} xs={6} className='text-left my-auto pr-5 text-white h6 pl-5'>
-                     <div className='text-gray mb-3 h6'>DISCORD LAUNCH</div>
-                     the first curated <br /> monthly <br /> tapes are <br /> released to <br /> our catalog
+                  <Col md={6} sm={6} xs={6} className='text-left my-auto pr-5 text-white h5 pl-5'>
+                     <div className='text-gray mb-3 h5'>PRIVATE <br />DISCORD LAUNCH</div>
+                     the first curated monthly <br /> tapes are <br /> released on catalog.works
                   </Col>
                   <Col md={12} className='text-center mx-auto mt-5 pt-5'>
                      <div>
@@ -108,7 +110,7 @@ const Home = () => {
                   </Col>
                </Row>
                <Row className=''>
-                  <Col md={6} sm={6} xs={6} className='text-right my-auto pr-5 text-white h6'>
+                  <Col md={6} sm={6} xs={6} className='text-right my-auto pr-5 text-white h5'>
                      selected <br /> works created + chosen <br /> solely by HEDS community <br /> through governance
                   </Col>
                   <Col md={6} sm={6} xs={6} className='text-left my-auto pl-5'>
@@ -119,7 +121,7 @@ const Home = () => {
                   <Col md={6} sm={6} xs={6} className='text-right my-auto pr-5'>
                      <Image src={shirt} className='shirt'></Image>
                   </Col>
-                  <Col md={6} sm={6} xs={6} className='text-left my-auto pl-5 text-white h6'>
+                  <Col md={6} sm={6} xs={6} className='text-left my-auto pl-5 text-white h5'>
                      merch drops <br />
                      live events <br />
                      art exhibitions <br />

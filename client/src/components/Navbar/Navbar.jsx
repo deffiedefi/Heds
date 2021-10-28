@@ -12,7 +12,7 @@ const Navbar = () => {
          <div className="pt-1 pb-4 "></div>
          <Container>
             <Row>
-               <Col className='text-right text-white h5'>0xbb81 connected</Col>
+               <Col className='text-right text-white h5'>connect</Col>
             </Row>
          </Container>
          <div className="pt-5 pb-5"></div>
